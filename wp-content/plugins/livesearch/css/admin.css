@@ -1,0 +1,7 @@
+.w-row:after { content: ""; display: table; clear: both; width : 100%; }
+.w-col { position : relative; float : left; width : auto; min-height : 1px; }
+.w-col.left { float : left; }
+.w-col.right {float : right; }
+
+#index_data { }
+#index_data:hover { cursor : pointer; } 

@@ -1,0 +1,11 @@
+.metafield_box label { float : left; margin : 5px 5px 0 0; min-width : 120px; }
+
+
+.tabs { position : relative; transition : all 0.7s; }
+.tabs ul { width : 100%; text-align : center; }
+.tabs ul li { display : inline-block; }
+.tabs .tabs_pointer  { display : block; padding : 20px; color : #000; }
+.tabs ul li a.clickable.active, .tabs ul li:hover a.clickable { background : #5295d9; color : #fff; box-shadow : none !important; }
+.tabs ul li a.unclickable { opacity : 0.5; }
+.tabs ul li:hover a.unclickable { cursor : default; }
+.tabs .tabs_box { position : relative; }
